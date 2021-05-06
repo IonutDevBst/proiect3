@@ -102,6 +102,9 @@ img {
     height:60px;   /* Height of the footer */
     background:#446487;
   }
+.email {
+    color: white;
+}
 
 
   /*responsive */
