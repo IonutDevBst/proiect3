@@ -1,88 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--  Header -->
     <div class="header period">
-        <ul>
-            <li><a href="#section3">Contact</a></li>
-            <li><a href="#section2">About</a></li>
-            <li><a href="#section1">Home</a></li>
-        </ul>
+      <ul>
+        <li><a href="#section3">Contact</a></li>
+        <li><a href="#section2">About</a></li>
+        <li><a href="#section1">Home</a></li>
+      </ul>
     </div>
 
     <!-- Main-->
     <div id="section1" class="main">
-        <img src="pozaeu2.jpg">
-        <div class="small1 timeline">
+      <img src="frontend.png" />
+      <div class="small1 timeline">
         <p>Hello,my name is</p>
         <h1>Ionut Ariton</h1>
-        <p>My background is in Civil Engineering, yet I switched to the field of IT,
-            after seven years of experience in the constructor sector.At first, my focus was on improving my skills in HTML, CSS and JavaScript
-            but, currently I am studying ReactJS, Node.js and React Native.
+        <p>
+          My background is in Civil Engineering, yet I switched to the field of
+          IT, after seven years of experience in the constructor sector.At
+          first, my focus was on improving my skills in HTML, CSS and JavaScript
+          but, currently I am studying ReactJS, Node.js and React Native.
         </p>
-        </div>
+      </div>
     </div>
 
     <div id="section2" class="skills container-sm">
-        <h1>Skills Overview</h1>
-        <p id="id1" class=""> I have more than 2 years experience building rich web applications.
-            Bellow is a quick Overview of my main technical skills sets and tools I use.
-        </p>
-        <button type="button" onclick="document.getElementById('id1').style.color='red'">clickMe</button>
+      <h1>Skills Overview</h1>
+      <p id="id1" class="">
+        I have more than 2 years experience building web applications.
+        Bellow is a quick Overview of my main technical skills sets and tools I
+        use.
+      </p>
+      <button
+        type="button"
+        onclick="document.getElementById('id1').style.color='red'"
+      >
+        clickMe
+      </button>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-item">
-        <h1>Frontend</h1>
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>JS</p>
-        <button id="id2">press</button>
+    <div class="container h-100">
+        <div class="row align-middle">
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-1">
+              <div class="txt">
+                <h1>BRANDING AND </br>
+      CORPORATE DESIGN</h1>
+                <p>Visual communication and problem-solving</p>
+              </div>
+              <a href="#">more</a>
+              <div class="ico-card">
+              <i class="fa fa-rebel"></i>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-2">
+              <div class="txt">
+                <h1>Web Front-End </br>
+      SOLUTIONS</h1>
+                <p>How design is implemented on the web.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-codepen"></i>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-3">
+              <div class="txt">
+                <h1>UX/UI WEBsite </br>AND MOBILE app</h1>
+                <p>User Interface and User Experience Design.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-empire"></i>
+            </div>
+            </div>
+          </div>
+          
         </div>
-        <div class="grid-item">
-            <h1>Tech</h1>
-            <p>Node.js</p>
-            <p>React</p>
-            <p></p>
-            <button id="id3">press</button> 
-        </div>
-        <div class="grid-item">
-            <h1>Other</h1>
-            <p>Bootstrap</p>
-            <p>SCSS</p>
-            <p>Github</p>
-            <p>Gitbucket</p>
-            <button id="id4">press</button> 
-        </div>
-    </div>
-
+      </div>
 
     <div id="section3" class="contact1">
-        <h1>Interested in hiring me for your project?</h1>
-        <p id="id5">Looking for an experience frontend developer to build your app or ship your software 
-            product?To start an initial chat, just drop me an email or us the form on the contact page.
-        </p>
-        <button type="button"><a href="mailto:aritonionutz@yahoo.com" class="email">Let's Talk!</a></button>
+      <h1>Interested in hiring me for your project?</h1>
+      <p id="id5">
+        Looking for an experience frontend developer to build your app or ship
+        your software product?To start an initial chat, just drop me an email or
+        us the form on the contact page.
+      </p>
+      <button type="button">
+        <a href="mailto:aritonionutz@yahoo.com" class="email">Let's Talk!</a>
+      </button>
     </div>
 
     <script src="javascript.js"></script>
-  <div class="footer">
-    <footer>
-        <p>Author: IA<br>
-        <a href="mailto:aritonionutz@yahoo.com" class="email">aritonionutz@yahoo.com</a></p>
+    <div class="footer">
+      <footer>
+        <p>
+          Author: IA<br />
+          <a href="mailto:aritonionutz@yahoo.com" class="email"
+            >aritonionutz@yahoo.com</a
+          >
+        </p>
       </footer>
-      </div>
+    </div>
 
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-   
-</body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </body>
 </html>

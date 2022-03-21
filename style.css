@@ -1,15 +1,13 @@
 body {
-    margin:0;
-    padding:0;
-    height:100%;
- }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-
-
-.header { 
+.header {
   background-color: #063970;
   padding: 20px;
- }
+}
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -22,67 +20,63 @@ li a {
   display: inline-block;
   color: whitesmoke;
   padding: 14px 16px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-decoration: none;
 }
 
 .header li:hover {
-    background-color: #ddd;
-  }
+  background-color: #ddd;
+}
 
-.main{
+.main {
   text-align: center;
-    padding: 50px;
-    border: 15px;
-    background-color: #446487;
-    color: whitesmoke;
+  padding: 50px;
+  border: 15px;
+  background-color: #446487;
+  color: whitesmoke;
 }
 .small1 {
   padding: 0px 150px;
-  font-size: 15px ;
+  font-size: 15px;
 }
 img {
   width: 35%;
 }
 .skills {
   text-align: center;
-    box-sizing: border-box;
-    
-    padding: 10px 10px 10px 10px;
-    background-color: #446487;
-    color: whitesmoke;
-    border-radius: 10px;
-   }
+  box-sizing: border-box;
+
+  padding: 10px 10px 10px 10px;
+  background-color: #446487;
+  color: whitesmoke;
+  border-radius: 0px;
+}
 #id1 {
   font-size: 16px;
 }
 
-.grid-container {
-    display: grid;
-    height: 400px;
-    align-content: center;
-    grid-template-columns: auto auto auto ;
-    grid-gap: 10px; 
+/* .grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
   background-color: #446487;
   padding: 10px 10px 10px 10px;
-  border-radius: 10px;
-   
+  border-radius: 0px;
 }
 .grid-item {
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-  
-  }
-  .frontend {
-    list-style-type: square;
-    padding: 10px;
-
-  }
-
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+} */
+.frontend {
+  list-style-type: square;
+  padding: 10px;
+}
 
 .contact1 {
   padding: 15px;
@@ -90,71 +84,180 @@ img {
   text-align: center;
 }
 
-  .footer {
-    text-align: center;
-    padding: 3px;
-    color: white;
-    display: block;
+.footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  display: block;
 
-    position:relative;
-    bottom:0;
-    width:100%;
-    height:60px;   /* Height of the footer */
-    background:#446487;
-  }
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: #446487;
+}
 .email {
-    color: white;
+  color: white;
 }
 
+/*responsive */
 
-  /*responsive */
-  
-  @media screen and (max-width: 1000px) {
-    .period {
-      width: 200px 50px;
-        text-align: right;
-        padding: 0px 70px 0px 0px;
-      left: 0px;
-      font-size: 0.8rem;
-      
-    }
-  
-    .timeline {
-  padding: 70px 50px 70px 50px;
-  margin-left: 0%;
-  margin-right: 0%;
-  overflow: hidden;
-    }
-  
-    .progress {
-     width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    img {
-      display: 45%;
-    }
+@media screen and (max-width: 1000px) {
+  .period {
+    width: 200px 50px;
+    text-align: right;
+    padding: 0px 70px 0px 0px;
+    left: 0px;
+    font-size: 0.8rem;
   }
 
-  /*Button up */
-  #myBtn {
+  .timeline {
+    padding: 70px 50px 70px 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow: hidden;
+  }
+
+  .progress {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  img {
+    display: 45%;
+  }
+}
+
+/*Button up */
+#myBtn {
   display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 14px;
-    border: none;
-    outline: none;
-    background-color: rgb(107, 7, 7);
-    color: white;
-    cursor: pointer;
-    padding: 12px;
-    border-radius: 5px;
-  }
-  
-  
-  #myBtn:hover {
-    background-color: #555;
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: rgb(107, 7, 7);
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Section styles*/
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+.gr-1 {
+  background: linear-gradient(170deg, #446487 0%, #446487 100%);
+}
+.gr-2 {
+  background: linear-gradient(170deg, #446487 0%, #446487 100%);
+}
+.gr-3 {
+  background: linear-gradient(170deg, #446487 0%, #446487 100%);
+}
+* {
+  transition: 0.5s;
+}
+.h-100 {
+  height: 75vh !important;
+}
+.align-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.column {
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+.column:hover {
+  padding-left: 0;
+}
+.column:hover .card .txt {
+  margin-left: 1rem;
+}
+.column:hover .card .txt h1,
+.column:hover .card .txt p {
+  color: white;
+  opacity: 1;
+}
+.column:hover a {
+  color: white;
+}
+.column:hover a:after {
+  width: 10%;
+}
+.card {
+  min-height: 170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: black;
+  letter-spacing: 0.05rem;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+}
+.card .txt {
+  margin-left: -3rem;
+  z-index: 1;
+}
+.card .txt h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card .txt p {
+  font-size: 0.7rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0rem;
+  margin-top: 33px;
+  opacity: 0;
+  color: white;
+}
+.card a {
+  z-index: 3;
+  font-size: 0.7rem;
+  color: black;
+  margin-left: 1rem;
+  position: relative;
+  bottom: -0.5rem;
+  text-transform: uppercase;
+}
+.card a:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  width: 0;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 1px solid white;
+  transition: 0.5s;
+}
+.card .ico-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card i {
+  position: relative;
+  right: -50%;
+  top: 60%;
+  font-size: 12rem;
+  line-height: 0;
+  opacity: 0.2;
+  color: white;
+  z-index: 0;
+}
