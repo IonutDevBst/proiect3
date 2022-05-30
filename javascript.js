@@ -22,17 +22,17 @@ window.onscroll = function(){
 
 
 /*Press   */
-document.getElementById("id2").addEventListener("click", function() {
-  alert("HTML CSS JavaScript ReactJS");
-}),
+// document.getElementById("id2").addEventListener("click", function() {
+//   alert("HTML CSS JavaScript ReactJS");
+// }),
 
-document.getElementById("id3").addEventListener("click", function() {
-    alert("Node.js Express.js MongoDB");
-  }),
+// document.getElementById("id3").addEventListener("click", function() {
+//     alert("Node.js Express.js MongoDB");
+//   }),
 
-  document.getElementById("id4").addEventListener("click", function() {
-    alert("Git Bitbucket ");
-  });
+  // document.getElementById("id4").addEventListener("click", function() {
+  //   alert("Git Bitbucket ");
+  // });
 
 
 

@@ -15,6 +15,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    
+
     <title>Document</title>
   </head>
   <body>
@@ -27,34 +29,59 @@
       </ul>
     </div>
 
+<!-- Animation -->
+<div>
+<div class='animation container-sm' id='animation-bg'>
+  <!-- <img src="frontend.png" /> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <script>
+  VANTA.GLOBE({
+    el: "#animation-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+  })
+  </script>
+</div>
+</div>
+<!--End Animation-->
+
     <!-- Main-->
     <div id="section1" class="main">
-      <img src="frontend.png" />
-      <div class="small1 timeline">
-        <p>Hello,my name is</p>
-        <h1>Ionut Ariton</h1>
+    
+
+      
+
+
+      <!-- <div class="small1 timeline">
+        
         <p>
           My background is in Civil Engineering, yet I switched to the field of
           IT, after seven years of experience in the constructor sector.At
-          first, my focus was on improving my skills in HTML, CSS and JavaScript
-          but, currently I am studying ReactJS, Node.js and React Native.
+          first, my focus was on improving my skills in HTML, CSS and JavaScript,
+          but I currently use  ReactJS, Node.js and React Native.
         </p>
-      </div>
+      </div> -->
     </div>
 
     <div id="section2" class="skills container-sm">
       <h1>Skills Overview</h1>
-      <p id="id1" class="">
+      <p id="id1" class="small1">
         I have more than 2 years experience building web applications.
         Bellow is a quick Overview of my main technical skills sets and tools I
         use.
       </p>
-      <button
+      <!-- <button
         type="button"
         onclick="document.getElementById('id1').style.color='red'"
       >
         clickMe
-      </button>
+      </button> -->
     </div>
 
     <div class="container h-100">
